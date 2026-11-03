@@ -13,7 +13,7 @@ Scope: the restaurant tablet only. Sources: Sam's user stories (US-01 to US-11) 
 | FR-05 | The system shall let the manager reject an incoming order. | Restaurant manager | US-02 |
 | FR-06 | The system shall require a reason from a list of [TBC] reasons when an order is rejected. | Restaurant manager | W1 |
 | FR-07 | The system shall require a preparation time when an order is accepted. | Restaurant manager | US-03, W1 |
-| FR-08 | The system shall send the preparation time to the customer and the rider when an order is accepted. | System | US-03 |
+| FR-08 | The system shall publish the preparation time to the order's status when an order is accepted. | System | US-03 |
 
 ## Menu availability
 
@@ -53,7 +53,7 @@ Scope: the restaurant tablet only. Sources: Sam's user stories (US-01 to US-11) 
 
 ## My review
 
-- I checked that each requirement has exactly one behaviour: accepting (FR-04) and setting a prep time (FR-07) are separate, as are marking an item unavailable (FR-09) and hiding it (FR-10).
+- I checked that each requirement has exactly one behaviour: accepting (FR-04) and setting a prep time (FR-07) are separate, as are marking an item unavailable (FR-09) and hiding it (FR-10). FR-08 first said "send the preparation time to the customer and the rider"; I rewrote it as one behaviour (publishing the time to the order's status), since both read the same status.
 - W3's requests for "large order numbers" and "colour by stage" describe the UI, not behaviour, so I did not keep them as FRs; readability is covered in Part D (usability, NFR-09).
 - I checked that no value missing from the sources was invented; each one is `[TBC]`.
 

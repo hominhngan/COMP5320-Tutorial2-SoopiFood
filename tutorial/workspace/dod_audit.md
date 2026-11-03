@@ -11,10 +11,10 @@ Sources: `DEFINITION_OF_DONE.md`, `pr_sf06.md`. The author's claims in the descr
 | D5 Money is integer VND, no floating point | ❌ not met | Diff: "raw = cart.food_subtotal * promo.value / 100" uses true division, so `raw` is a float before `int(raw // 1000)`. |
 | D6 Deployed to staging and manually tested | ❌ not met | "[deploy] staging … not run (manual trigger)"; no staging link or test note. "Will deploy to staging after merge" is a plan, not evidence. |
 
-**Verdict: SF-06 is not Done** (1 of 6 items met); remove the `ready-to-merge` label, and deploy to staging with a test note (D6) once the steps below are done.
+**Verdict: SF-06 is not Done** (1 of 6 items met); remove the `ready-to-merge` label, and after the steps below also re-enable mypy (D3 Linter and type checker pass) and deploy to staging with a test note (D6 Deployed to staging and manually tested).
 
 | # | Next step for the author | Closes |
 |---|---|---|
 | 1 | Fix the valid-until check so a code is accepted on its last day, then re-run behave. | D1 All acceptance criteria pass |
-| 2 | Compute the discount with integer arithmetic (`food_subtotal * value // 100`), no `/`. | D5 Money is integer VND |
-| 3 | Re-enable mypy in ci.yml, then request an approving review from a team member. | D3 Linter and type checker pass (and D2 Reviewed by another team member) |
+| 2 | Compute the discount with integer arithmetic (`food_subtotal * value // 100`), no `/`. | D5 Money is integer VND, no floating point |
+| 3 | Request an approving review from a team member other than the author. | D2 Reviewed by at least one other team member |
