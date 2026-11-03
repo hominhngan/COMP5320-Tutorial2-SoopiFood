@@ -1,6 +1,6 @@
 # Interview guide (round 2, neutral wording): Restaurant manager, SoopiFood discovery
 
-**Format:** semi-structured, 45–60 minutes · **Stakeholder:** restaurant manager (runs service, not the owner)
+**Format:** semi-structured, 45-60 minutes · **Stakeholder:** restaurant manager (runs service, not the owner)
 **Goal:** understand current delivery workflows, pain points and needs. No features are being validated.
 
 ## My review of round 1

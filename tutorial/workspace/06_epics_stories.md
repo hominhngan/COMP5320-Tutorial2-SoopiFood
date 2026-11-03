@@ -97,7 +97,7 @@ Sources: persona Sam, the Short-Staffed Night Manager (`03_personas.md`); FR-01 
 
 ## My coverage check
 
-I checked that each story is a vertical slice a manager could see working, has 2–4 acceptance criteria, and has no story points. Coverage of the requirements:
+I checked that each story is a vertical slice a manager could see working, has 2-4 acceptance criteria, and has no story points. Coverage of the requirements:
 
 | Item | Covered by |
 |---|---|

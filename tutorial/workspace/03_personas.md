@@ -1,6 +1,6 @@
 # Personas: Restaurant managers (SoopiFood)
 
-Sources: interviews I1–I8 and observations O1–O2 in `03a_interview_notes.md` (simulated).
+Sources: interviews I1-I8 and observations O1-O2 in `03a_interview_notes.md` (simulated).
 
 ## Persona 1: Sam, the Short-Staffed Night Manager
 
@@ -24,7 +24,7 @@ Sam runs the evening shift with a very small team and covers host, cashier and e
 - Refunds and complaints need long calls or chats with the platform [I5, O2]
 
 **Context**
-- Evening shift with 1–3 staff; peak 6–9pm [I1, I3, I8]
+- Evening shift with 1-3 staff; peak 6-9pm [I1, I3, I8]
 - Tablet on the counter, read from a distance while busy [I3, O1]
 - Shared Wi-Fi that drops at dinner time [I3, O1]
 
@@ -73,7 +73,7 @@ Quang treats delivery as a side business that must not disturb dine-in guests. Q
 
 **Context**
 - Delivery is a small share of sales [I6]
-- Busiest period is dinner, 6–9pm [I4]
+- Busiest period is dinner, 6-9pm [I4]
 - A host, not the manager, handles the tablet [I6]
 
 ## What makes each persona distinct
@@ -82,8 +82,8 @@ Quang treats delivery as a side business that must not disturb dine-in guests. Q
 
 ## My review
 
-- I traced every bullet to its source tags in `03a_interview_notes.md`, and checked that each section has 3–5 bullets.
+- I traced every bullet to its source tags in `03a_interview_notes.md`, and checked that each section has 3-5 bullets.
 - I checked that there are no demographic details; the notes give none that affect behaviour.
 - I checked that the goals are end goals (outcomes), not tasks.
 - Persona 3 is based on only two interviews (I4, I6), so I treat it as weaker evidence.
-- **I chose Sam, the Short-Staffed Night Manager, for Parts C–E**, because Sam's problems (orders timing out, slow sold-out updates, no shared order status) appear in the most sources.
+- **I chose Sam, the Short-Staffed Night Manager, for Parts C-E**, because Sam's problems (orders timing out, slow sold-out updates, no shared order status) appear in the most sources.

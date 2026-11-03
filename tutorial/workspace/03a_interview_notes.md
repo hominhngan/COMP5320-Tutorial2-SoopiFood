@@ -1,4 +1,4 @@
-# Interview and observation notes (I1–I8, O1–O2)
+# Interview and observation notes (I1-I8, O1-O2)
 
 > **Note to the instructor: simulated research.** I did not have access to real restaurant managers,
 > so I used an AI agent to role-play eight managers answering my final interview guide
@@ -27,7 +27,7 @@
 - Has had riders leave with the wrong bag twice this month.
 
 **I4: Khang, manager, pizza shop with 2 locations**
-- Busiest time is 6–9pm; at peak he "pauses" delivery by turning the tablet off.
+- Busiest time is 6-9pm; at peak he "pauses" delivery by turning the tablet off.
 - Would like to tell customers about a longer prep time rather than disappear from the app.
 - Kitchen tracks orders on a whiteboard; the tablet shows nothing after acceptance.
 
@@ -55,13 +55,13 @@
 
 ## Observations (dinner service)
 
-**O1: Noodle restaurant (I1's site), Tuesday 6–9pm**
+**O1: Noodle restaurant (I1's site), Tuesday 6-9pm**
 - Tablet sat on the counter next to the cash register; Linh was away from it most of the time.
 - 3 orders waited over 2 minutes before acceptance; 1 timed out and was cancelled.
 - Wi-Fi dropped twice for about a minute; two orders appeared together afterwards.
 - A rider waited 8 minutes; Linh looked at three paper tickets to find his order.
 
-**O2: Hotpot restaurant (I8's site), Friday 6–9pm**
+**O2: Hotpot restaurant (I8's site), Friday 6-9pm**
 - Dung marked a dish sold out after two customers had already ordered it; he called both customers.
 - The kitchen asked "is order 4 picked up?" several times; there was no shared status.
 - A rider took an order without any check of the order number.

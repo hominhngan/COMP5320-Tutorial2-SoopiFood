@@ -1,6 +1,6 @@
 # Functional requirements: Restaurant tablet (SoopiFood)
 
-Scope: the restaurant tablet only. Sources: Sam's user stories (US-01 to US-11) and walkthrough notes (W1–W4) in `04a_user_stories_walkthroughs.md`.
+Scope: the restaurant tablet only. Sources: Sam's user stories (US-01 to US-11) and walkthrough notes (W1-W4) in `04a_user_stories_walkthroughs.md`.
 
 ## Order intake
 

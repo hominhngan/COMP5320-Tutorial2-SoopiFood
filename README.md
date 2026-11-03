@@ -8,14 +8,14 @@ This repository contains my work for Tutorial #2. I followed the prompts in the 
 
 ## How I worked
 
-- I ran each prompt with an AI coding agent that can read and write files, in the order A → I. For Parts A–E, I used the output of each part as the input of the next one.
+- I ran each prompt with an AI coding agent that can read and write files, in the order A → I. For Parts A-E, I used the output of each part as the input of the next one.
 - For every part I followed the loop from the handout: **Round 1 (agent) → my review → Round 2 with more context → my review**. In each review I asked: *what did the agent not know?*
-- In Part F, round 1 had only the backlog; in round 2 I gave the agent the stakeholder notes. In Part H, round 1 had only the user story; in round 2 (same session) I gave it the business rules R1–R3.
-- **About the interviews (Parts B and C):** I did not have access to real restaurant managers. As the handout allows, I used the AI agent to role-play eight restaurant managers answering my interview guide (I1–I8), two dinner-service observations (O1–O2) and four prototype walkthroughs (W1–W4). These notes are simulated, and I have marked them as such in the files.
+- In Part F, round 1 had only the backlog; in round 2 I gave the agent the stakeholder notes. In Part H, round 1 had only the user story; in round 2 (same session) I gave it the business rules R1-R3.
+- **About the interviews (Parts B and C):** I did not have access to real restaurant managers. As the handout allows, I used the AI agent to role-play eight restaurant managers answering my interview guide (I1-I8), two dinner-service observations (O1-O2) and four prototype walkthroughs (W1-W4). These notes are simulated, and I have marked them as such in the files.
 
 ## How to run it again from the start
 
-The repository contains everything needed to repeat my work: the handout (`tutorial/TUTORIAL.md`), the run order (`tutorial/README.md`), the prompts (`tutorial/starter/prompts/01`–`12`) and the input files (`tutorial/starter/`). I left out the course's sample solutions.
+The repository contains everything needed to repeat my work: the handout (`tutorial/TUTORIAL.md`), the run order (`tutorial/README.md`), the prompts (`tutorial/starter/prompts/01`-`12`) and the input files (`tutorial/starter/`). I left out the course's sample solutions.
 
 1. Clone this repository and open it with an AI coding agent that can read and write files. Work from the repository root.
 2. My outputs are already in `tutorial/workspace/`, and the prompts write to the same file names. To keep them, copy that folder first (for example to `my_outputs/`), or work in a new branch.
@@ -28,9 +28,9 @@ The repository contains everything needed to repeat my work: the handout (`tutor
 | 3 | `03_personas.md` | `tutorial/workspace/03a_interview_notes.md` |
 | 4 | `04_functional_requirements.md` | `tutorial/workspace/04a_user_stories_walkthroughs.md` |
 | 5 | `05_non_functional_requirements.md` | the FRs from step 4 |
-| 6 | `06_epics_stories.md` | the persona, FRs and NFRs from steps 3–5 |
+| 6 | `06_epics_stories.md` | the persona, FRs and NFRs from steps 3-5 |
 
-Steps 7–12 read their inputs from `tutorial/starter/` by themselves. Because agent output differs from run to run, a new run will not match my files word for word.
+Steps 7-12 read their inputs from `tutorial/starter/` by themselves. Because agent output differs from run to run, a new run will not match my files word for word.
 
 ## What I submitted
 
@@ -51,7 +51,7 @@ Steps 7–12 read their inputs from `tutorial/starter/` by themselves. Because a
 | Part | What the agent did not know, and what I changed |
 |---|---|
 | A | The first draft used leading words ("juggle", "most frustrating") and assumed something needed to change. I asked the agent to rewrite these questions neutrally. |
-| B | I checked every persona bullet against its source tags. Persona 3 is based on only two interviews (I4, I6), so I consider it weaker evidence. I chose **Sam, the Short-Staffed Night Manager** for Parts C–E. |
+| B | I checked every persona bullet against its source tags. Persona 3 is based on only two interviews (I4, I6), so I consider it weaker evidence. I chose **Sam, the Short-Staffed Night Manager** for Parts C-E. |
 | C | The sources did not give timeouts, pause durations or a definition of "late", so I kept 7 values as `[TBC]` and listed a question for each. I left UI requests (colours, font size) to the NFRs. |
 | D | Most thresholds were not in the constraints, including the TLS version, so I marked them `[TBC]` with a question for the stakeholders instead of inventing numbers. |
 | E | Five NFRs (availability, encryption, scalability, maintainability, portability) are cross-cutting and have no story. I think they belong in the Definition of Done or as enabler items. |

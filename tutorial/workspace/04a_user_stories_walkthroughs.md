@@ -1,4 +1,4 @@
-# Input for Part C: Sam's user stories and walkthrough notes (W1–W4)
+# Input for Part C: Sam's user stories and walkthrough notes (W1-W4)
 
 > **Note to the instructor: simulated research.** I wrote the user stories for the persona I chose
 > in Part B. For the walkthroughs, I used an AI agent to role-play four restaurant managers trying a
